@@ -758,7 +758,7 @@ free_peoples = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 0.25
+	badboy_factor = -0.1
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -840,7 +840,7 @@ liberate_country = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 0.6
+	badboy_factor = -0.2
 	prestige_factor = 1
 	peace_cost_factor = 0.25
 	penalty_factor = 1
@@ -1715,9 +1715,6 @@ great_war_penalty_cb = {
 	#}
 	
 	on_add = {
-		remove_country_modifier = great_war_loser
-		clr_country_flag = great_war_loser
-		
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
@@ -1725,27 +1722,21 @@ great_war_penalty_cb = {
 		}
 	}
 	on_po_accepted = {
-	
 		set_country_flag = great_war_loser
-		
-		add_country_modifier = {
-			name = great_war_loser
-			duration = 6935 #19 ans (1918 - 1939)
-		}
-		
 		any_pop = {
 			ideology = {
-				factor = 0.1
+				factor = 0.25
 				value = fascist
 			}
 			ideology = {
-				factor = 0.05
+				factor = 0.1
 				value = communist
 			}
 			dominant_issue = {
 				value = jingoism 
 				factor = 0.5
 			}
+			militancy = 4
 		}
 	}
 }

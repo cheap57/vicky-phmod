@@ -1,8 +1,8 @@
 #army_doctrine
 post_napoleonic_thought = {
 	area = army_doctrine
-	year = 1836
-	cost = 3600
+	year = 1800 # 1836
+	cost = 4796
 	unciv_military = yes
 
 	activate_building = fort	
@@ -43,13 +43,14 @@ post_napoleonic_thought = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 
 strategic_mobility = {
 	area = army_doctrine
-	year = 1836
-	cost = 7200
+	year = 1800 # 1836
+	cost = 9592
 	unciv_military = yes
 	
 	army_base = {
@@ -87,23 +88,24 @@ strategic_mobility = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1840
+			year = 1800 # 1840
 		}
 		modifier = {
 			factor = 2
-			year = 1850
+			year = 1800 # 1850
 		}
 		modifier = {
 			factor = 1.1
 			is_greater_power = yes
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 
 point_defense_system = {
 	area = army_doctrine
-	year = 1850
-	cost = 10800
+	year = 1800 # 1850
+	cost = 16086
 	unciv_military = yes
 	engineer = {
 		support = 0.25
@@ -130,11 +132,11 @@ point_defense_system = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1860
+			year = 1800 # 1860
 		}
 		modifier = {
 			factor = 2
-			year = 1870
+			year = 1800 # 1870
 		}
 		modifier = {
 			factor = 1.4
@@ -152,13 +154,14 @@ point_defense_system = {
 			factor = 1.1
 			is_greater_power = yes
 		}
+		modifier = { factor = 0.1 NOT = { year = 1850 }}
 	}
 
 }
 deep_defense_system = {
 	area = army_doctrine
-	year = 1870
-	cost = 14400
+	year = 1800 # 1870
+	cost = 25154
 	unciv_military = yes
 	engineer = {
 		support = 0.25
@@ -186,11 +189,11 @@ deep_defense_system = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1875
+			year = 1800 # 1875
 		}
 		modifier = {
 			factor = 2
-			year = 1880
+			year = 1800 # 1880
 		}
 		modifier = {
 			factor = 1.4
@@ -208,12 +211,13 @@ deep_defense_system = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
+		modifier = { factor = 0.1 NOT = { year = 1870 }}
 	}
 }
 infiltration = {
 	area = army_doctrine
-	year = 1900
-	cost = 18000
+	year = 1800 # 1900
+	cost = 39932
 	unciv_military = yes
 		
 	army_base = {
@@ -254,13 +258,14 @@ infiltration = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
+		modifier = { factor = 0.1 NOT = { year = 1900 }}
 	}
 
 }
 modern_army_doctrine = {
 	area = army_doctrine
-	year = 1919
-	cost = 21600
+	year = 1800 # 1919
+	cost = 55752
 	unciv_military = yes
 	
 	army_base = {
@@ -301,6 +306,7 @@ modern_army_doctrine = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
+		modifier = { factor = 0.1 NOT = { year = 1919 }}
 	}
 }
 
@@ -308,8 +314,8 @@ modern_army_doctrine = {
 #light_armament
 flintlock_rifles = {
 	area = light_armament
-	year = 1836
-	cost = 3600
+	year = 1800 # 1836
+	cost = 4796
 	unciv_military = yes
 	
 	activate_unit = infantry
@@ -346,12 +352,13 @@ flintlock_rifles = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 muzzle_loaded_rifles = {
 	area = light_armament
-	year = 1836
-	cost = 7200
+	year = 1800 # 1836
+	cost = 9592
 	unciv_military = yes
 	activate_unit = engineer
 	
@@ -375,7 +382,7 @@ muzzle_loaded_rifles = {
 		modifier = {
 			factor = 6
 			rank = 16
-			year = 1850
+			year = 1800 # 1850
 		}
 		modifier = {
 			factor = 1.05
@@ -393,12 +400,13 @@ muzzle_loaded_rifles = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 breech_loaded_rifles = {
 	area = light_armament
-	year = 1850
-	cost = 10800
+	year = 1800 # 1850
+	cost = 16086
 
 	activate_unit = guard
 	unciv_military = yes
@@ -414,7 +422,7 @@ breech_loaded_rifles = {
 		modifier = {
 			factor = 6
 			rank = 16
-			year = 1860
+			year = 1800 # 1860
 		}
 		modifier = {
 			factor = 1.05
@@ -441,12 +449,13 @@ breech_loaded_rifles = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
+		modifier = { factor = 0.1 NOT = { year = 1850 }}
 	}
 }
 machine_guns = {
 	area = light_armament
-	year = 1870
-	cost = 14400
+	year = 1800 # 1870
+	cost = 25154
 	unciv_military = yes
 	
 	combat_width = -5
@@ -486,13 +495,14 @@ machine_guns = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1870 }}
 	}
 	
 }
 bolt_action_rifles = {
 	area = light_armament
-	year = 1900
-	cost = 18000
+	year = 1800 # 1900
+	cost = 39932
 	unciv_military = yes
 	unit = 1
 	
@@ -529,12 +539,13 @@ bolt_action_rifles = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1900 }}
 	}
 }
 modern_divisional_structure = {
 	area = light_armament
-	year = 1919
-	cost = 21600
+	year = 1800 # 1919
+	cost = 55752
 	unciv_military = yes
 
 	unit = 2
@@ -571,6 +582,7 @@ modern_divisional_structure = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1919 }}
 	}
 }
 
@@ -578,8 +590,8 @@ modern_divisional_structure = {
 #heavy_armament
 bronze_muzzle_loaded_artillery = {
 	area = heavy_armament
-	year = 1836
-	cost = 3600
+	year = 1800 # 1836
+	cost = 4796
 	unciv_military = yes
 	activate_unit = artillery
 	
@@ -614,12 +626,13 @@ bronze_muzzle_loaded_artillery = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 iron_muzzle_loaded_artillery = {
 	area = heavy_armament
-	year = 1836
-	cost = 7200
+	year = 1800 # 1836
+	cost = 9592
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -658,12 +671,13 @@ iron_muzzle_loaded_artillery = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 iron_breech_loaded_artillery = {
 	area = heavy_armament
-	year = 1850
-	cost = 10800
+	year = 1800 # 1850
+	cost = 16086
 	unciv_military = yes
 	artillery = {
 		attack = 0.25
@@ -701,12 +715,13 @@ iron_breech_loaded_artillery = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1850 }}
 	}
 }
 steel_breech_loaded_artillery = {
 	area = heavy_armament
-	year = 1870
-	cost = 14400
+	year = 1800 # 1870
+	cost = 25154
 	unciv_military = yes
 	artillery = {
 		attack = 0.5
@@ -745,12 +760,13 @@ steel_breech_loaded_artillery = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1870 }}
 	}
 }
 indirect_artillery_fire = {
 	area = heavy_armament
-	year = 1900
-	cost = 18000
+	year = 1800 # 1900
+	cost = 39932
 	unciv_military = yes
 	artillery = {
 		attack = 0.5
@@ -790,12 +806,13 @@ indirect_artillery_fire = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1900 }}
 	}
 }
 heavy_armament_dunno = {
 	area = heavy_armament
-	year = 1919
-	cost = 21600
+	year = 1800 # 1919
+	cost = 55752
 	unciv_military = yes
 	artillery = {
 		attack = 0.5
@@ -835,6 +852,7 @@ heavy_armament_dunno = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1919 }}
 	}
 }
 
@@ -842,8 +860,8 @@ heavy_armament_dunno = {
 #military_science
 military_staff_system = {
 	area = military_science
-	year = 1836
-	cost = 3600
+	year = 1800 # 1836
+	cost = 4796
 	unciv_military = yes
 	
 	army_base = {
@@ -882,12 +900,13 @@ military_staff_system = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 military_plans = {
 	area = military_science
-	year = 1836
-	cost = 7200
+	year = 1800 # 1836
+	cost = 9592
 	unciv_military = yes
 	
 	army_base = {
@@ -926,12 +945,13 @@ military_plans = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 military_statistics = {
 	area = military_science
-	year = 1850
-	cost = 10800
+	year = 1800 # 1850
+	cost = 16086
 	unciv_military = yes
 	
 	army_base = {
@@ -970,12 +990,13 @@ military_statistics = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1850 }}
 	}
 }
 military_logistics = {
 	area = military_science
-	year = 1870
-	cost = 14400
+	year = 1800 # 1870
+	cost = 25154
 	unciv_military = yes
 	
 	army_base = {
@@ -1015,12 +1036,13 @@ military_logistics = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1870 }}
 	}
 }
 military_directionism = {
 	area = military_science
-	year = 1900
-	cost = 18000
+	year = 1800 # 1900
+	cost = 39932
 	unciv_military = yes
 	
 	army_base = {
@@ -1062,12 +1084,13 @@ military_directionism = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1900 }}
 	}
 }
 aeronautics = {
 	area = military_science
-	year = 1914
-	cost = 21600
+	year = 1800 # 1914
+	cost = 53574
 	army_base = {
 		default_organisation = 10
 		supply_consumption = 0.20
@@ -1106,6 +1129,7 @@ aeronautics = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1914 }}
 	}
 }
 
@@ -1113,8 +1137,8 @@ aeronautics = {
 #army_leadership
 army_command_principle = {
 	area = army_leadership
-	year = 1836
-	cost = 3600
+	year = 1800 # 1836
+	cost = 4796
 
 	morale = 0.25
 	unciv_military = yes
@@ -1137,18 +1161,19 @@ army_command_principle = {
 		modifier = {
 			factor = 1.05
 			rank = 16
-			year = 1850
+			year = 1800 # 1850
 		}
 		modifier = {
 			factor = 1.05
-			year = 1860
+			year = 1800 # 1860
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 army_professionalism = {
 	area = army_leadership
-	year = 1836
-	cost = 7200
+	year = 1800 # 1836
+	cost = 9592
 	unciv_military = yes
 	morale = 0.1
 
@@ -1183,11 +1208,11 @@ army_professionalism = {
 		modifier = {
 			factor = 1.05
 			rank = 16
-			year = 1850
+			year = 1800 # 1850
 		}
 		modifier = {
 			factor = 1.05
-			year = 1860
+			year = 1800 # 1860
 		}
 		modifier = {
 			factor = 1.5
@@ -1197,12 +1222,13 @@ army_professionalism = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1836 }}
 	}
 }
 army_decision_making = {
 	area = army_leadership
-	year = 1850
-	cost = 10800
+	year = 1800 # 1850
+	cost = 16086
 	unciv_military = yes
 	morale = 0.2
 
@@ -1229,11 +1255,11 @@ army_decision_making = {
 		modifier = {
 			factor = 1.05
 			rank = 16
-			year = 1860
+			year = 1800 # 1860
 		}
 		modifier = {
 			factor = 1.05
-			year = 1870
+			year = 1800 # 1870
 		}
 		modifier = {
 			factor = 1.02
@@ -1252,12 +1278,13 @@ army_decision_making = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1850 }}
 	}
 }
 army_risk_management = {
 	area = army_leadership
-	year = 1870
-	cost = 14400
+	year = 1800 # 1870
+	cost = 25154
 	unciv_military = yes
 	morale = 0.20
 
@@ -1280,11 +1307,11 @@ army_risk_management = {
 		modifier = {
 			factor = 1.05
 			rank = 16
-			year = 1880
+			year = 1800 # 1880
 		}
 		modifier = {
 			factor = 1.05
-			year = 1890
+			year = 1800 # 1890
 		}
 		modifier = {
 			factor = 1.05
@@ -1307,12 +1334,13 @@ army_risk_management = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1870 }}
 	}
 }
 army_nco_training = {
 	area = army_leadership
-	year = 1900
-	cost = 18000
+	year = 1800 # 1900
+	cost = 39932
 	unciv_military = yes
 	morale = 0.25
 	
@@ -1340,11 +1368,11 @@ army_nco_training = {
 		modifier = {
 			factor = 1.05
 			rank = 16
-			year = 1910
+			year = 1800 # 1910
 		}
 		modifier = {
 			factor = 1.05
-			year = 1920
+			year = 1800 # 1920
 		}
 		modifier = {
 			factor = 1.02
@@ -1363,12 +1391,13 @@ army_nco_training = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1900 }}
 	}
 }
 great_war_experience = {
 	area = army_leadership
-	year = 1919
-	cost = 21600
+	year = 1800 # 1919
+	cost = 55752
 	unciv_military = yes
 	morale = 0.5
 
@@ -1409,6 +1438,7 @@ great_war_experience = {
 				military_score = THIS
 			}
 		}
+		modifier = { factor = 0.1 NOT = { year = 1919 }}
 	}
 }
 

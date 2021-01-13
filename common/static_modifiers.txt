@@ -145,8 +145,11 @@ war = {
 	supply_consumption = 0.5
 	#war_exhaustion = 0.1
 	badboy = -0.033
-	global_immigrant_attract = -0.5
+	global_immigrant_attract = -1
 	max_loan_modifier = 10
+	rich_everyday_needs = -0.10
+	middle_everyday_needs = -0.10
+	poor_everyday_needs = -0.10
 }
 
 peace = {
@@ -165,15 +168,15 @@ war_exhaustion = {
 	RGO_throughput = -0.01
 	cb_generation_speed_modifier = -0.02
 	global_immigrant_attract = -0.01
-	global_pop_consciousness_modifier = 0.002
+	global_pop_consciousness_modifier = 0.001
 	global_pop_militancy_modifier = 0.001
 }
 
 
 badboy = {
-	max_war_exhaustion = 1
+	max_war_exhaustion = 50
 	global_pop_consciousness_modifier = 0.001
-	global_immigrant_attract = -0.001
+	global_immigrant_attract = -0.01
 	mobilisation_size = -0.001
 }
 
@@ -215,7 +218,7 @@ unciv_nation = {
 	mobilisation_size = -0.1
 	diplomatic_points_modifier = -0.25
 	cb_generation_speed_modifier = 0.8
-	global_immigrant_attract = -0.1
+	global_immigrant_attract = -1
 }
 
 
@@ -236,7 +239,7 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.1				#increased by war exhaustion.
+	war_exhaustion = 0.05				#increased by war exhaustion.
 }
 
 total_blockaded = {
