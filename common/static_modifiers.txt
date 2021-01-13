@@ -19,25 +19,25 @@ very_easy_player = {
 }
 
 easy_player = {
-	supply_consumption = -0.25
-	research_points_modifier = 0.25
-	leadership_modifier = 0.25
+#	supply_consumption = -0.25
+#	research_points_modifier = 0.25
+#	leadership_modifier = 0.25
 }
 
 hard_player = {
-	supply_consumption = 0.5
+#	supply_consumption = 0.5
 }
 
 very_hard_player = {
-	supply_consumption = 1.0
+#	supply_consumption = 1.0
 }
 
 
 
 
 very_easy_ai = {
-	land_organisation = -0.25
-	naval_organisation = -0.25
+#	land_organisation = -0.25
+#	naval_organisation = -0.25
 
 }
 
@@ -45,21 +45,21 @@ easy_ai = {
 }
 
 hard_ai = {
-	badboy = -0.02
-	research_points_modifier = 0.5
-	land_organisation = 0.25
-	naval_organisation = 0.25
-	leadership_modifier = 0.5
-	global_pop_militancy_modifier = -0.02
+#	badboy = -0.02
+#	research_points_modifier = 0.5
+#	land_organisation = 0.25
+#	naval_organisation = 0.25
+#	leadership_modifier = 0.5
+#	global_pop_militancy_modifier = -0.02
 }
 
 very_hard_ai = {
-	badboy = -0.05
-	research_points_modifier = 1.0
-	land_organisation = 0.5
-	naval_organisation = 0.5
-	leadership_modifier = 1.0
-	global_pop_militancy_modifier = -0.04
+#	badboy = -0.05
+#	research_points_modifier = 1.0
+#	land_organisation = 0.5
+#	naval_organisation = 0.5
+#	leadership_modifier = 1.0
+#	global_pop_militancy_modifier = -0.04
 }
 
 
@@ -108,8 +108,8 @@ has_siege = {
 	farm_rgo_eff = -0.5
 	mine_rgo_eff = -0.5
 	immigrant_attract = -2
-	immigrant_push = 0.2
-	population_growth = -0.008
+	immigrant_push = 0.5
+	population_growth = -0.004
 }
 
 occupied = {
@@ -174,10 +174,10 @@ war_exhaustion = {
 
 
 badboy = {
-	max_war_exhaustion = 50
+	max_war_exhaustion = 4
 	global_pop_consciousness_modifier = 0.001
 	global_immigrant_attract = -0.01
-	mobilisation_size = -0.001
+	mobilisation_size = -0.005
 }
 
 

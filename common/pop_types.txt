@@ -119,6 +119,12 @@ demotion_chance =
 		not = { religion = this }
 		strata = poor
 	}
+	#modifier = {
+	#	factor = 0.04
+	#	location = {
+	#			has_siege = yes
+	#		}
+	#}
 
 	modifier = {
 		factor = -0.1
@@ -219,7 +225,7 @@ demotion_chance =
 		}
 	}
 		modifier = {
-			factor = 0.5
+			factor = 0.15
 			strata = middle
 			state_scope = { is_colonial = yes }
 			not = { culture = this }			
@@ -516,12 +522,12 @@ emigration_chance =
 	}
 
 
-	modifier = {
-		factor = -0.3
-		state_scope = {
-			has_factories = yes
-			}
-	}
+#	modifier = {
+#		factor = -0.3
+#		state_scope = {
+#			has_factories = yes
+#			}
+#	}
 
 	group = {
 		modifier = {
@@ -555,16 +561,16 @@ emigration_chance =
 		not = { culture = this }
 	}
 
-	#modifier = {
-		#factor = -2.0
-		#OR = { 
-		#	continent = north_america
-		#	continent = south_america
-		#}
-		#government = democracy
-	#
 	modifier = {
-		factor = -2.0
+		factor = -0.5
+		OR = { 
+			continent = north_america
+			continent = south_america
+		}
+		government = democracy
+	}
+	modifier = {
+		factor = -0.5
 		state_scope = { is_colonial = yes }
 	}
 }

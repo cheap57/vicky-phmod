@@ -12,8 +12,43 @@ immigration_focus =
 	immigration =
 	{
 		immigrant_attract = 5 #0.2 #increases attactiveness to immigrants by 20 %
-		icon = 3
+		icon = 19
 		limit = { 
+			#OR = { 
+				#continent = north_america
+				#continent = south_america
+				#is_overseas = yes
+			#}  
+		}
+	}
+	assimilation =
+	{
+		assimilation_rate = 0.2
+		immigrant_push = 1
+		immigrant_attract = 1
+		flashpoint_tension = 0.05
+		#population_growth = 0.01
+		#farm_rgo_size = 0.1
+		#mine_rgo_size = 0.1
+		
+		icon = 24
+		limit = { 
+			minorities = yes
+			#OR = { 
+				#continent = north_america
+				#continent = south_america
+				#is_overseas = yes
+			#}  
+		}
+	}
+	welfare =
+	{
+		goods_demand = 0.1
+		life_rating = 0.1
+		
+		icon = 20
+		limit = { 
+			#minorities = yes
 			#OR = { 
 				#continent = north_america
 				#continent = south_america
@@ -54,6 +89,7 @@ diplomatic_focus =
 		pop_consciousness_modifier = 0.5
 		
 		limit = {
+			is_ideology_enabled = fascist
 			#is_core = THIS
 			minorities = yes
 			THIS = {
@@ -76,6 +112,7 @@ diplomatic_focus =
 		pop_consciousness_modifier = 0.5
 		
 		limit = {
+			is_ideology_enabled = communist
 			#is_core = THIS
 			unemployment = 0.1
 			THIS = {
