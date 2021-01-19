@@ -290,7 +290,11 @@ gas_defense_capability = {
 			factor = 5
 			war = yes
 			war_countries = { invention = gas_attack_capability }
-		}		
+		}	
+		modifier = {
+					factor = 2
+					invention = gas_attack_capability
+				}
 	}
 	effect = {
 		gas_defence = yes

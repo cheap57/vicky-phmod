@@ -76,51 +76,51 @@ diplomatic_focus =
 		}
 	}
 	
-	fascist_propaganda =
-	{
-		#has_flashpoint = yes
-		own_provinces = no
-
-		ideology = fascist
-		loyalty_value = 10 # By that much pops will be more disloyal
-		icon = 25
-		
-		flashpoint_tension = 0.2
-		pop_consciousness_modifier = 0.5
-		
-		limit = {
-			is_ideology_enabled = fascist
-			#is_core = THIS
-			minorities = yes
-			THIS = {
-				is_greater_power = yes
-				invention = paramilitary_groups
-			}
-		}
-	}
+#	fascist_propaganda =
+#	{
+#		#has_flashpoint = yes
+#		own_provinces = no
+#
+#		ideology = fascist
+#		loyalty_value = 10 # By that much pops will be more disloyal
+#		icon = 25
+#		
+#		flashpoint_tension = 0.2
+#		pop_consciousness_modifier = 0.5
+#		
+#		limit = {
+#			is_ideology_enabled = fascist
+#			#is_core = THIS
+#			minorities = yes
+#			THIS = {
+#				is_greater_power = yes
+#				invention = paramilitary_groups
+#			}
+#		}
+#	}
 	
-	communist_propaganda =
-	{
-		#has_flashpoint = yes
-		own_provinces = no
-
-		ideology = communist
-		loyalty_value = 10 # By that much pops will be more disloyal
-		icon = 29
-		
-		flashpoint_tension = 0.2
-		pop_consciousness_modifier = 0.5
-		
-		limit = {
-			is_ideology_enabled = communist
-			#is_core = THIS
-			unemployment = 0.1
-			THIS = {
-				is_greater_power = yes
-				invention = terrorism
-			}
-		}
-	}
+#	communist_propaganda =
+#	{
+#		#has_flashpoint = yes
+#		own_provinces = no
+#
+#		ideology = communist
+#		loyalty_value = 10 # By that much pops will be more disloyal
+#		icon = 29
+#		
+#		flashpoint_tension = 0.2
+#		pop_consciousness_modifier = 0.5
+#		
+#		limit = {
+#			is_ideology_enabled = communist
+#			#is_core = THIS
+#			unemployment = 0.1
+#			THIS = {
+#				is_greater_power = yes
+#				invention = terrorism
+#			}
+#		}
+#	}
 }
 
 promotion_focus =
