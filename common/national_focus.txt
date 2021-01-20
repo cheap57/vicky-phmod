@@ -70,9 +70,9 @@ diplomatic_focus =
 
 		limit = {
 			is_core = THIS
-			THIS = {
-				is_greater_power = no
-			}
+			#THIS = {
+			#	is_greater_power = no
+			#}
 		}
 	}
 	

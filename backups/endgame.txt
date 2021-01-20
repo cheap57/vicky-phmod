@@ -66,7 +66,7 @@ country_event = {
 						value = jingoism 
 						factor = 0.5
 					}
-					militancy = 4
+					militancy = 0.1
 				}
 		}
 		option = {
@@ -80,7 +80,7 @@ country_event = {
 						value = jingoism 
 						factor = 0.5
 					}
-					militancy = 4
+					militancy = 0.1
 				}
 		}
 		option = {

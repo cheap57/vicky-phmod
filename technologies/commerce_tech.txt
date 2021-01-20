@@ -2,7 +2,7 @@
 private_banks = {
 	area = financial_institutions
 	year = 1800 # 1836
-	cost = 4796
+	cost = 5000
 
 	activate_building = cement_factory 
 	tax_eff = 3
@@ -35,7 +35,7 @@ private_banks = {
 stock_exchange = {
 	area = financial_institutions
 	year = 1800 # 1836
-	cost = 9592
+	cost = 10000
 
 	tax_eff = 5
 	
@@ -67,7 +67,7 @@ stock_exchange = {
 business_banks = {
 	area = financial_institutions
 	year = 1800 # 1850
-	cost = 16086
+	cost = 20000
 
 	tax_eff = 5
 	
@@ -99,7 +99,7 @@ business_banks = {
 investment_banks = {
 	area = financial_institutions
 	year = 1800 # 1870
-	cost = 25154
+	cost = 30000
 
 	tax_eff = 5
 	ai_chance = {
@@ -130,7 +130,7 @@ investment_banks = {
 bank_inspection_board = {
 	area = financial_institutions
 	year = 1800 # 1900
-	cost = 39932
+	cost = 45000
 
 	tax_eff = 5
 	ai_chance = {
@@ -161,7 +161,7 @@ bank_inspection_board = {
 mutual_funds = {
 	area = financial_institutions
 	year = 1800 # 1919
-	cost = 55752
+	cost = 60000
 
 	tax_eff = 5
 	ai_chance = {
@@ -187,7 +187,7 @@ mutual_funds = {
 no_standard = {
 	area = monetary_system
 	year = 1800 # 1836
-	cost = 4796
+	cost = 5000
 
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -206,7 +206,7 @@ no_standard = {
 ad_hoc_money_bill_printing = {
 	area = monetary_system
 	year = 1800 # 1836
-	cost = 9592
+	cost = 10000
 	
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -237,7 +237,7 @@ ad_hoc_money_bill_printing = {
 private_bank_money_bill_printing = {
 	area = monetary_system
 	year = 1800 # 1836
-	cost = 14388
+	cost = 20000
 
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -260,7 +260,7 @@ private_bank_money_bill_printing = {
 central_bank_money_bill_printing = {
 	area = monetary_system
 	year = 1800 # 1850
-	cost = 21448
+	cost = 25000
 
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -283,7 +283,7 @@ central_bank_money_bill_printing = {
 modern_central_bank_system = {
 	area = monetary_system
 	year = 1800 # 1870
-	cost = 31442
+	cost = 35000
 
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -314,7 +314,7 @@ modern_central_bank_system = {
 market_determined_exchange_rates = {
 	area = monetary_system
 	year = 1800 # 1900
-	cost = 47919
+	cost = 50000
 
 
 	administrative_efficiency = 0.05
@@ -341,7 +341,7 @@ market_determined_exchange_rates = {
 early_classical_theory_and_critique = {
 	area = economic_thought_and_critique
 	year = 1800 # 1836
-	cost = 4796
+	cost = 5000
 	
 	activate_building = lumber_mill
 	factory_input = -0.01
@@ -365,7 +365,7 @@ early_classical_theory_and_critique = {
 late_classical_theory = {
 	area = economic_thought_and_critique
 	year = 1800 # 1836
-	cost = 9592
+	cost = 10000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -396,7 +396,7 @@ late_classical_theory = {
 collectivist_theory = {
 	area = economic_thought_and_critique
 	year = 1800 # 1836
-	cost = 14388
+	cost = 15000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -427,7 +427,7 @@ collectivist_theory = {
 the_historical_theory = {
 	area = economic_thought_and_critique
 	year = 1800 # 1850
-	cost = 21448
+	cost = 25000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -458,7 +458,7 @@ the_historical_theory = {
 neoclassical_theory = {
 	area = economic_thought_and_critique
 	year = 1800 # 1870
-	cost = 31442
+	cost = 35000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -489,7 +489,7 @@ neoclassical_theory = {
 keynesian_economics = {
 	area = economic_thought_and_critique
 	year = 1800 # 1900
-	cost = 47919
+	cost = 50000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -523,7 +523,7 @@ keynesian_economics = {
 freedom_of_trade = {
 	area = market_functionality
 	year = 1800 # 1836
-	cost = 4796
+	cost = 5000
 
 
 	activate_building = luxury_clothes_factory  
@@ -556,7 +556,7 @@ freedom_of_trade = {
 market_structure = {
 	area = market_functionality
 	year = 1800 # 1836
-	cost = 9592
+	cost = 10000
 
 	influence = 0.1
 	farm_rgo_eff = 0.1
@@ -591,7 +591,7 @@ market_structure = {
 business_regulations = {
 	area = market_functionality
 	year = 1800 # 1836
-	cost = 14388
+	cost = 15000
 
 	influence = 0.2
 	farm_rgo_eff = 0.1
@@ -621,7 +621,7 @@ business_regulations = {
 market_regulations = {
 	area = market_functionality
 	year = 1800 # 1850
-	cost = 21448
+	cost = 25000
 
 	influence = 0.2
 	ai_chance = {
@@ -649,7 +649,7 @@ market_regulations = {
 economic_responsibility = {
 	area = market_functionality
 	year = 1800 # 1870
-	cost = 31442
+	cost = 35000
 
 	influence = 0.2
 	ai_chance = {
@@ -677,7 +677,7 @@ economic_responsibility = {
 government_interventionism = {
 	area = market_functionality
 	year = 1800 # 1900
-	cost = 47919
+	cost = 50000
 
 	influence = 0.2
 	ai_chance = {
@@ -708,7 +708,7 @@ government_interventionism = {
 guild_based_production = {
 	area = tech_organization
 	year = 1800 # 1836
-	cost = 4796
+	cost = 5000
 	activate_building = canned_food_factory 
 	factory_output = 0.01
 	ai_chance = {
@@ -743,7 +743,7 @@ guild_based_production = {
 organized_factories = {
 	area = tech_organization
 	year = 1800 # 1836
-	cost = 9592
+	cost = 10000
 
 	factory_output = 0.01
 		ai_chance = {
@@ -782,7 +782,7 @@ organized_factories = {
 scientific_management = {
 	area = tech_organization
 	year = 1800 # 1836
-	cost = 14388
+	cost = 15000
 
 	factory_output = 0.01
 	ai_chance = {
@@ -821,7 +821,7 @@ scientific_management = {
 time_saving_measures = {
 	area = tech_organization
 	year = 1800 # 1850
-	cost = 21448
+	cost = 25000
 
 	factory_output = 0.01
 	ai_chance = {
@@ -848,7 +848,7 @@ time_saving_measures = {
 management_strategy = {
 	area = tech_organization
 	year = 1800 # 1870
-	cost = 31442
+	cost = 35000
 
 	factory_output = 0.01
 	ai_chance = {
@@ -875,7 +875,7 @@ management_strategy = {
 organizational_development = {
 	area = tech_organization
 	year = 1800 # 1900
-	cost = 47919
+	cost = 50000
 
 	factory_output = 0.01
 	ai_chance = {
