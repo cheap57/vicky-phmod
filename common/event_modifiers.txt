@@ -580,6 +580,10 @@ pandemic_influenza = {
 	global_pop_consciousness_modifier = 0.1
 	icon = 18
 }
+had_pandemic_influenza = {
+	max_loan_modifier = 5
+	icon = 18
+}
 
 ##### Crime & Punishment #####
 trustee_system = {
@@ -764,6 +768,11 @@ great_war_loser = {
 	global_pop_consciousness_modifier = 0.1
 	global_pop_militancy_modifier = 0.1
 	global_population_growth = 0.01
+	
+	rebel_org_gain = {
+		faction = fascist_rebels
+		value = 0.75
+	}
 	icon = 16
 }
 great_war_recovery = {

@@ -95,6 +95,7 @@ land_province = {
 blockaded = 
 {
 	immigrant_attract = -2
+	import_cost = 0.01
 }
 
 no_adjacent_controlled = {
