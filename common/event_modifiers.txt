@@ -765,8 +765,8 @@ liberian_research_boost = {
 
 
 great_war_loser = {
-	global_pop_consciousness_modifier = 0.1
-	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.05
+	global_pop_militancy_modifier = 0.05
 	global_population_growth = 0.01
 	
 	rebel_org_gain = {

@@ -1,0 +1,295 @@
+political_decisions = {
+	form_LOR = {
+		potential = {
+			NOT = { exists = LOR }
+			tag = X22
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = LOR
+			}
+			change_tag = LOR
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_LOM = {
+		potential = {
+			NOT = { exists = LOM }
+			tag = X20
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = LOM
+			}
+			change_tag = LOM
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_COR = {
+		potential = {
+			NOT = { exists = COR }
+			tag = X07
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = COR
+			}
+			change_tag = COR
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_NAV= {
+		potential = {
+			OR = {
+				tag = X05
+				AND = {
+					capital = 2051
+					primary_culture = all_italian
+				}
+			}
+		}
+
+		allow = {
+			NOT = { exists = NAV }
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = NAV
+			}
+			change_tag = NAV
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_TBZ = {
+		potential = {
+			NOT = { exists = TBZ }
+			tag = X18
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = TBZ
+			}
+			change_tag = TBZ
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_POL = {
+		potential = {
+			NOT = { exists = POL }
+			tag = X21
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = POL
+			}
+			change_tag = POL
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_PRU = {
+		potential = {
+			NOT = { exists = PRU }
+			tag = X24
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = PRU
+			}
+			change_tag = PRU
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_KOL = {
+		potential = {
+			NOT = { exists = KOL }
+			tag = X23
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = KOL
+			}
+			change_tag = KOL
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_KHO = {
+		potential = {
+			NOT = { exists = KHO }
+			tag = X06
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = KHO
+			}
+			change_tag = KHO
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_BAH = {
+		potential = {
+			NOT = { exists = BAH }
+			tag = X19
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = BAH
+			}
+			change_tag = BAH
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_BAH = {
+		potential = {
+			NOT = { exists = BAH }
+			tag = X19
+		}
+
+		allow = {
+			always = yes
+		}
+		effect = {
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS
+				add_core = BAH
+			}
+			change_tag = BAH
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fuck_losers = {
+		potential = {
+			year = 1930
+			player = yes
+		}
+
+		allow = {
+			player = yes
+		}
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						has_country_flag = great_war_loser
+					}
+				}
+				any_pop = {
+					ideology = {
+						factor = 0.25
+						value = fascist
+					}
+					ideology = {
+						factor = 0.1
+						value = communist
+					}
+					dominant_issue = {
+						value = jingoism 
+						factor = 0.5
+					}
+					militancy = 4
+				}
+			}
+		}
+	}
+}

@@ -1174,6 +1174,11 @@ synthetic_polymers = {
 	cost = 60000
 
 	supply_limit = 0.50
+	
+	factory_goods_output = {
+		rubber = 0.25
+	}
+	
 	ai_chance = {
 		factor = 1.1
 		modifier = {

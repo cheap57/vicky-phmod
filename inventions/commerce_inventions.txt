@@ -1479,6 +1479,7 @@ import_substitution_industrialization = {
 	}
 	effect = {
 		activate_building = synthetic_oil_factory
+		activate_building = rubber_refinery
 	}
 }
 #organized_factories

@@ -1,0 +1,114 @@
+
+#################################### PHMOD
+# Great war loser: takes stab hits 
+country_event = {
+	id = 19041990
+	title = "EVTNAME19041990"
+	desc = "EVTDESC19041990"
+	picture = "Revolution"
+	
+	trigger = {
+		civilized = yes
+		has_country_flag = great_war_loser
+	}
+	
+	mean_time_to_happen = {
+		months = 175
+		modifier = {
+			factor = 0.9
+			NOT = {
+				poor_strata_everyday_needs = 0.9
+			}
+		}
+		modifier = {
+			factor  = 0.9
+			NOT = {
+				poor_strata_everyday_needs = 0.85
+			}
+		}	
+		modifier = {
+			factor = 0.9
+			socialist = 5
+		}
+		modifier = {
+			factor = 0.9
+			socialist = 10
+		}
+		modifier = {
+			factor = 0.9
+			socialist = 15
+		}
+		modifier = {
+			factor = 0.9
+			social_reform_want = 0.05
+		}
+		modifier = {
+			factor = 0.9
+			social_reform_want = 0.1
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.9
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 0.9
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 0.9
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				average_consciousness = 3
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA19041990"
+
+			poor_strata = {
+				ideology = {
+					value = communist
+					factor = 0.2
+				}
+				consciousness = 1
+				militancy = 2
+			}
+
+	}
+	
+	option = {
+		name = "EVTOPTB19041990"
+			middle_strata = {
+				ideology = {
+					value = fascist
+					factor = 0.1
+				}
+				consciousness = 1
+				militancy = 2
+			}
+			poor_strata = {
+				ideology = {
+					value = fascist
+					factor = 0.1
+				}
+				consciousness = 1
+				militancy = 2
+			}
+	}
+}

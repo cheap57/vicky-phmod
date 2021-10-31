@@ -1136,7 +1136,7 @@ catalytic_fermentative_process = {
 	effect = {
 		factory_goods_output = {
 			wine = 0.02
-		} 
+		}
 	}
 }
 #organic_chemistry
@@ -1205,6 +1205,9 @@ cracking = {
 		}
 	}
 	effect = {
+		factory_goods_output = {
+			rubber = 0.25
+		}
 		activate_building = fuel_refinery 
 	}
 }

@@ -456,7 +456,7 @@ social_reforms = {
 		}
 		good_safety = {
 			factory_cost = 1.0
-			factory_output = 0.8
+			factory_output = 0.08
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 		}
@@ -537,16 +537,19 @@ social_reforms = {
 		no_schools = {
 		}
 		low_schools = {
+			research_points = 1
 			education_efficiency_modifier = 0.1
 			global_immigrant_attract = 0.02
 			administrative_multiplier = 1
 		}
 		acceptable_schools = {
+			research_points = 2
 			education_efficiency_modifier = 0.15
 			global_immigrant_attract = 0.03
 			administrative_multiplier = 2
 		}
 		good_schools = {
+			research_points = 3
 			education_efficiency_modifier = 0.2
 			global_immigrant_attract = 0.04
 			administrative_multiplier = 3

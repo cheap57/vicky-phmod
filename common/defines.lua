@@ -51,7 +51,7 @@ country = {
 	ECONOMIC_REFORM_UH_FACTOR = -0.40,
 	MILITARY_REFORM_UH_FACTOR = -0.40,
 	WRONG_REFORM_RADICAL_IMPACT = 15,
-	TECH_YEAR_SPAN = 140,
+	TECH_YEAR_SPAN = 200, --140,
 	TECH_FACTOR_VASSAL = 0.5, -- cost reduction factor if overlord has research the tech
 	MAX_SUPPRESSION = 100,
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
@@ -90,7 +90,7 @@ country = {
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
 	RESEARCH_POINTS_ON_CONQUER_MULT = 360, -- multiplier to RP got by conquering as unciv when got enacted military reforms
-	MAX_RESEARCH_POINTS = 25000, -- max RP you can store for uncivs
+	MAX_RESEARCH_POINTS = 250000, -- max RP you can store for uncivs
 },
 
 economy = {
@@ -99,7 +99,7 @@ economy = {
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 10,
 	BANKRUPTCY_FACTOR = 0.2,
 	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 1500,
-	MAX_LOAN_CAP_FROM_BANKS = 3, -- can loan max % of country tax base from single country
+	MAX_LOAN_CAP_FROM_BANKS = 50, --3, -- can loan max % of country tax base from single country
 	GUNBOAT_LOW_TAX_CAP = 0.0,
 	GUNBOAT_HIGH_TAX_CAP = 1.0,
 	GUNBOAT_FLEET_SIZE_FACTOR = 100,
