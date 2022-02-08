@@ -267,6 +267,7 @@ political_decisions = {
 						}
 						owner = {
 							alliance_with = THIS
+							is_greater_power = yes
 						}
 					}
 				}

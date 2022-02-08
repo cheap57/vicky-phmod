@@ -897,7 +897,7 @@ experimental_railroad = {
 early_railroad = {
 	area = tech_infrastructure
 	year = 1800 # 1840
-	cost = 10000
+	cost = 12000
 
 	max_railroad = 1
 	
@@ -922,7 +922,7 @@ early_railroad = {
 iron_railroad = {
 	area = tech_infrastructure
 	year = 1800 # 1850
-	cost = 20000
+	cost = 24000
 
 	max_railroad = 1 
 	ai_chance = {
@@ -946,7 +946,7 @@ iron_railroad = {
 steel_railroad = {
 	area = tech_infrastructure
 	year = 1800 # 1870
-	cost = 30000
+	cost = 36000
 
 	max_railroad = 1 
 	ai_chance = {
@@ -970,7 +970,7 @@ steel_railroad = {
 integral_rail_system = {
 	area = tech_infrastructure
 	year = 1800 # 1898
-	cost = 40000
+	cost = 48000
 
 	max_railroad = 1
 	ai_chance = {
@@ -994,7 +994,7 @@ integral_rail_system = {
 limited_access_roads = {
 	area = tech_infrastructure
 	year = 1800 # 1919
-	cost = 60000
+	cost = 96000
 
 	max_railroad = 1
 	ai_chance = {

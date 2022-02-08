@@ -1724,7 +1724,7 @@ great_war_penalty_cb = {
 	on_po_accepted = {
 		add_country_modifier = {
 			name = great_war_loser
-			duration = 6935 #19 ans (1918 - 1939)
+			duration = 3650 #10 ans (1918 - 1928)
 		}
 		any_pop = {
 			ideology = {
