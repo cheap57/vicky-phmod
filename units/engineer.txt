@@ -19,7 +19,7 @@ engineer = {
 	build_cost = {
 		small_arms = 10
 		canned_food = 10
-		liquor = 10
+		regular_clothes = 10
 		explosives = 5
 	}
 	
@@ -28,7 +28,9 @@ engineer = {
 		small_arms = 0.012 #0.01
 		ammunition = 0.1 # 0
 		canned_food = 0.06 # 0.02
+		regular_clothes = 0.012 # 0.02
 		explosives = 0.05
+		machine_parts = 0.05
 	}
 	
 

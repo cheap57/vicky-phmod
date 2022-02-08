@@ -31,6 +31,7 @@ tank = {
 		canned_food = 0.1 #0.04
 		fuel = 0.2
 		explosives = 0.03
+		machine_parts = 0.05
 	}
 	
 
@@ -39,7 +40,7 @@ tank = {
 	attack = 20 #16
 	defence = 6
 	discipline = 1
-	support = 0.0
+	support = 1.0
 	maneuver = 1
 	siege = 1
 	

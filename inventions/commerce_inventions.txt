@@ -1476,6 +1476,10 @@ import_substitution_industrialization = {
 			factor = 1
 			trade_policy = protectionism
 		}
+		modifier = {
+			factor = 1
+			synthetic_polymers = 1
+		}
 	}
 	effect = {
 		activate_building = synthetic_oil_factory

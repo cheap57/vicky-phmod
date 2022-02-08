@@ -702,11 +702,11 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		timber = 100
-		cement = 100
-		steel = 100
+		timber = 1000
+		cement = 1000
+		steel = 1000
 	}
-	time = 720
+	time = 1825 #720
 	visibility = yes
 	onmap = yes
 	max_level = 6
