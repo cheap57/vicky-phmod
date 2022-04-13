@@ -1453,6 +1453,7 @@ autarky = {
 	}
 	effect = {
 		loan_interest = -0.005
+		activate_building = synthetic_oil_factory
 	}
 }
 import_substitution_industrialization = {
@@ -1482,7 +1483,6 @@ import_substitution_industrialization = {
 		}
 	}
 	effect = {
-		activate_building = synthetic_oil_factory
 		activate_building = rubber_refinery
 	}
 }
