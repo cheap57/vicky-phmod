@@ -75,6 +75,23 @@ diplomatic_focus =
 			#}
 		}
 	}
+	forced_labour =
+	{
+		icon = 4
+		own_provinces = no
+
+		flashpoint_tension = 0.15
+
+		limit = {
+			#FROM = {
+				in_sphere = THIS
+			#}
+
+			#THIS = {
+			#	is_greater_power = no
+			#}
+		}
+	}
 	
 #	fascist_propaganda =
 #	{
