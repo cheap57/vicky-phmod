@@ -242,7 +242,7 @@ average_literacy = {
 plurality = { 
 	#research_points_modifier = 0.01
 	global_immigrant_attract = 0.1
-	prestige = 0.01
+	prestige = 0.001
 }
 
 generalised_debt_default = {
