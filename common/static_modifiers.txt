@@ -96,6 +96,8 @@ blockaded =
 {
 	immigrant_attract = -2
 	import_cost = 0.01
+	immigrant_push = 0.5
+	population_growth = -0.001
 }
 
 no_adjacent_controlled = {
@@ -131,7 +133,7 @@ infrastructure = {
 	mine_rgo_size = 0.5
 	supply_limit = 4
 	immigrant_attract = 0.01
-	life_rating = 0.01
+	life_rating = 0.03
 }
 
 
@@ -155,6 +157,7 @@ war = {
 	middle_everyday_needs = -0.10
 	poor_everyday_needs = -0.10
 	mobilisation_size = 0.04
+	research_points_modifier = 0.05
 }
 
 peace = {
@@ -237,8 +240,9 @@ average_literacy = {
 }
 
 plurality = { 
-	research_points_modifier = 0.01
+	#research_points_modifier = 0.01
 	global_immigrant_attract = 0.1
+	prestige = 0.01
 }
 
 generalised_debt_default = {
